@@ -4,7 +4,12 @@ const request=require('request')
 const { response } = require('express')
 
 const app=express()
+
+/**
+* API key link should be copied from the site and should be pasted here.
+*/
 const apikey='078ef7056df51407ac1e2c7b57f727ea'
+
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended:true}))
 app.set('view engine','ejs')
@@ -16,7 +21,6 @@ app.get('/',function(req,res){
  * open api from site -> openweathermap.org
  * generate your own api key in site by logging in and delete tha api after your completion of your project.
  * It's free of cost
- * openweathermap.org -> jbmersal@gmail.com  password -> bAl$3ji0
  */
 app.post('/',function(req,res){
     let city=req.body.city
