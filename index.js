@@ -6,9 +6,9 @@ const { response } = require('express')
 const app=express()
 
 /**
-* API key link should be copied from the site and should be pasted here.
+* API key link should be copied from the site and should be pasted here under apikey const.
 */
-const apikey='078ef7056df51407ac1e2c7b57f727ea'
+const apikey=''
 
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended:true}))
