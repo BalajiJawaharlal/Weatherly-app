@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Space out content a bit */
 /* 
     code from https://codepen.io/navin_sh/pen/rgknI
@@ -5,6 +6,10 @@
 
 /*Uncomment this css code and run this project*/
 /*
+=======
+/* Code used for styling*/
+
+>>>>>>> 6b843482529d14a73a9971585d7694d71b00ceae
 body {
     width: 800px;
     margin: 0 auto;
@@ -82,4 +87,8 @@ body {
   .ghost-button:hover {
     border:2px solid #515151;
   }
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> 6b843482529d14a73a9971585d7694d71b00ceae
